@@ -56,6 +56,17 @@ h2 {
   top: 50px;
 }
 
+.label {
+  color: green;
+  transition: transform 0.5s 0.25s ease;
+}
+
+.label:hover {
+  color: red;
+  transform: scale(2);
+  transition: color 0.5s;
+}
+
 /* Colors */
 
 /* QUESTION 1 */
@@ -68,7 +79,7 @@ h2 {
 }
 
 .light-blue {
-  background-color: deepskyblue;
+  background-color: lightblue;
 }
 
 .orange {
@@ -101,12 +112,6 @@ h2 {
 
 .black {
   background-color: #000;
-}
-
-.textred:hover {
-  font-size: 20px;
-  transition: background-color 0.5s;
-  background-color: blue;
 }
 
 /* BEGIN QUESTION 2 */
@@ -174,13 +179,13 @@ h2 {
 .flag1 {
   background-color: red;
   /* TODO */
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .flag2 {
   background-color: blue;
   /* TODO */
-  margin-left: 5px;
+  margin-left: 10px;
 }
 /* For padding practice */
 .padding-container {
@@ -188,5 +193,5 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
-  padding: 60px;
+  padding: 60px 60px;
 }
